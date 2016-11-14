@@ -1,0 +1,39 @@
+body {
+	font-family:monospace;	
+	text-align: center;
+	list-style-type: none; 
+	background: url(http://i.imgur.com/Zgy1gwB.jpg);
+ 	background-size:cover;
+ 	}
+
+h1 {
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 40px;
+	color: #3412FF;
+}
+
+#slogan {
+	font-family: helvetica;
+	font-size: 30px;
+	font-style: italic;
+	color: #1678FF;
+}
+
+#info {
+	font-family: helvetica;
+	font-size: 25px;
+	color: #FF408D;
+}
+
+ul{
+	text-align: bottom;
+	list-style-type: none;
+	color: #3412FF;
+}
+
+#contact {
+	text-align: bottom;
+	font-size: 25px;
+	color: #FF408D;
+}
