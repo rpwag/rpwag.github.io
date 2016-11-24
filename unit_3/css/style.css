@@ -1,9 +1,14 @@
+html {
+	min-height: 100vh;
+}
+
 body {
 	font-family:monospace;	
 	text-align: center;
 	list-style-type: none; 
-	background: url(http://i.imgur.com/Zgy1gwB.jpg);
+	background: url(../images/Nice_France.jpg);
  	background-size:cover;
+ 	position: relative;
  	}
 
 h1 {
