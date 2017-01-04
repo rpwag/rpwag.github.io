@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Vadodara|Jaldi');
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	min-height: 100vh;
+}
+
+body {
+	font-family:monospace;	
+	text-align: center;
+	list-style-type: none; 
+ 	position: relative;
+ 	}
+
+h1 {
+	font-family: 'Jaldi';
+	font-weight: bold;
+	font-size: 40px;
+	color: #ffffff
+}
+
+#hero {
+	background-image: url(../images/Nice_France.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 55vw;
+	overflow: hidden;
+	position: relative;
+	background-attachment: fixed;
+}
+#hero h1 {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	transform: translateY(-50%);
+}
+
+#hero2 {
+	background-image: url(../images/Tokyo_Japan.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 55vw;
+	overflow: hidden;
+	position: relative;
+	background-attachment: fixed;
+}
+
+#hero2 h1 {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	transform: translateY(-50%);
+}
+
+#hero3 {
+	background-image: url(../images/BondiBeach_Australia.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 55vw;
+	overflow: hidden;
+	position: relative;
+	background-attachment: fixed;
+}
+
+#hero3 h1 {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	transform: translateY(-50%);
+}
+
+#hero4 {
+	background-image: url(../images/Kyoto_Japan.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 55vw;
+	overflow: hidden;
+	position: relative;
+	background-attachment: fixed;
+}
+
+#hero4 h1 {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	transform: translateY(-50%);
+}
+
+#slogan {
+	font-family: 'Hind Vadodara';
+	font-size: 30px;
+	font-style: italic;
+	color: #FF1300;
+}
+
+#info {
+	font-family: 'Hind Vadodara';
+	font-size: 25px;
+	color: #FF1300;
+}
+
+.quote {
+	font-family: 'Hind Vadodara';
+	font-size: 20px;
+	color: #FF1300;
+}
+
+#gallery {
+	color: #FF1300;
+}
+
+#gallery figure, 
+#gallery a {
+	float: left;
+	width: 25%;
+	display: block;
+}
+#gallery a:visited {
+	color: orange;
+}
+#gallery a:hover {
+	color: pink;
+}
+
+
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+ul{
+	text-align: bottom;
+	list-style-type: none;
+	color: #3412FF;
+}
+.blogpost {
+	width: 100%;
+	max-width: 640px;
+	padding-top: 20px;
+}
+
+.blogpost figure{
+	display: block;
+	width: 50%;
+	float: left;
+}
+.blogpost figure img{
+	display: block;
+	width: 100%;
+}
+.blogpost figcaption{
+	display: block;
+	width: 50%;
+	float: left;
+	padding-left: 20px;
+	text-align: left;
+}
+
+#contact {
+	font-family: 'Hind Vadodara';
+	text-align: bottom;
+	font-size: 25px;
+	color: #FF1300;
+}
+
+@media screen and (max-width: 420px) {
+	#gallery figure, #gallery a {
+		width: 50%;
+	}
+}
